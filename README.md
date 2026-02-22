@@ -18,8 +18,8 @@ Validated across ~34,000 LLM experiments spanning 13 coordination topologies, tw
 
 | Library | Description |
 |---------|-------------|
+| [stochastic-circuit-breaker](https://github.com/zahere/stochastic-circuit-breaker) | CUSUM-optimal circuit breaker for LLM agents and stochastic systems. 4-state FSM with statistically principled degradation detection and provably minimax detection delay. |
 | [reliability-polynomials](https://github.com/zahere/reliability-polynomials) | Generalized reliability polynomials where coefficients encode quality, not just connectivity. Fault-dependent crossover analysis, three theorems. |
-| [stochastic-circuit-breaker](https://github.com/zahere/stochastic-circuit-breaker) | CUSUM-optimal circuit breaker for stochastic systems. 4-state FSM, statistically principled degradation detection. |
 
 ---
 
