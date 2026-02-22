@@ -1,41 +1,50 @@
-### Zaher | AI Infrastructure Architect
+# Zaher Khateeb | AI/ML Engineer
 
-**Founder & CTO at [AgentiCraft](https://agenticraft.ai)**
+**Founder of [AgentiCraft](https://agenticraft.ai)** — infrastructure layer for production multi-agent systems.
 
-I build the infrastructure layer for the next generation of AI. My focus is bridging the gap between raw LLM APIs and production-grade, multi-agent ecosystems.
-
-* **200+** Integration Patterns
-* **40+** Mesh Services
-* **18** LLM Providers
-* **Zero-Trust** Security Architecture
+I specialize in multi-agent systems architecture, LLM infrastructure, and distributed systems reliability. My work sits at the intersection of formal methods and production engineering — building systems that are provably correct, not just empirically okay.
 
 ---
 
-### What I'm Building
-**[AgentiCraft](https://agenticraft.ai)** — The enterprise service mesh for AI agents.
-> *From pilot to production in weeks, not months.*
+### Current Research
 
-We are solving the hard problems in AI orchestration:
-* Stateful multi-agent coordination with formal verification
-* Distributed consensus for autonomous agent teams
-* Deterministic workflows for non-deterministic models
-* Defense-in-depth security with cryptographic identity
+**Fault-Dependent Resilience in Multi-Agent LLM Systems**
+
+Extending classical network reliability theory to stochastic agent quality. The core result: an iff characterization of when topology choice actually matters — crash-stop faults make all mesh topologies equivalent (a mathematical identity), while Byzantine faults break that equivalence in ways determined by the coordination protocol, not the graph structure.
+
+Validated across ~34,000 LLM experiments spanning 13 coordination topologies, two fault regimes, two task domains, and two model generations. Preparing for submission to a top-tier ML systems venue.
 
 ---
 
-### Deep Technical Areas
-* **Formal Methods** — Provable correctness guarantees for multi-agent systems
-* **Distributed Systems** — Consensus, fault tolerance, service mesh architecture
-* **Optimization** — Swarm intelligence, constraint programming, game-theoretic attribution
-* **Protocol Design** — Open standards for agent interoperability and discovery
-* **Research** — Statistical rigor, hypothesis-driven experimentation, multi-agent benchmarks
+### Technical Focus
+
+**Multi-Agent Systems** — mesh coordination architecture, fault-dependent topology selection, Byzantine fault tolerance for LLM systems, stochastic service mesh, MCP/A2A protocol integration
+
+**Formal Methods** — session type theory for deadlock-freedom guarantees, runtime property verification, CSP process algebra, refinement checking
+
+**LLM Infrastructure** — provider-agnostic inference abstraction, statistical circuit breakers with CUSUM-optimal change detection, quality-weighted reliability theory
+
+**Distributed Systems** — consensus protocols, fault injection and fault modeling, observability, Kubernetes-native deployment
 
 ---
 
 ### Tech Stack
-* **Core:** Python, Go, Rust
-* **AI/ML:** LLM Orchestration, Vector Databases, RAG Pipelines
-* **Infrastructure:** Kubernetes, Service Mesh, Distributed Systems
+
+**Languages:** Python (expert), C++, TypeScript, SQL, Bash
+
+**AI/ML:** PyTorch, RAG, fine-tuning (LoRA, QLoRA), LLM evaluation, OpenTelemetry
+
+**Infrastructure:** Kubernetes, Docker, Helm, CI/CD, service mesh, PostgreSQL, Redis, Qdrant
+
+**Cloud:** AWS, GCP, Azure, Nebius AI Cloud
+
+---
+
+### Background
+
+- B.Sc. Industrial Engineering & Management (Data Science concentration) — Tel Aviv University
+- Advanced Data Science & AI Program — Nebius Academy (Y-DATA), Tel Aviv University
+- Previously: AI & Infrastructure Engineer at Visual Arena (Gothenburg, Sweden)
 
 ---
 
