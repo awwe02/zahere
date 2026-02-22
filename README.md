@@ -14,6 +14,13 @@ Extending classical network reliability theory to stochastic agent quality. The 
 
 Validated across ~34,000 LLM experiments spanning 13 coordination topologies, two fault regimes, two task domains, and two model generations. Preparing for submission to a top-tier ML systems venue.
 
+**Standalone libraries from this research:**
+
+| Library | Description |
+|---------|-------------|
+| [reliability-polynomials](https://github.com/zahere/reliability-polynomials) | Generalized reliability polynomials where coefficients encode quality, not just connectivity. Fault-dependent crossover analysis, three theorems. |
+| [stochastic-circuit-breaker](https://github.com/zahere/stochastic-circuit-breaker) | CUSUM-optimal circuit breaker for stochastic systems. 4-state FSM, statistically principled degradation detection. |
+
 ---
 
 ### Technical Focus
